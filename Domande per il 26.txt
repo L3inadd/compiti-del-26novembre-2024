@@ -1,0 +1,16 @@
+1) Ci sono 4 metodi per il problema dallo stallo:
+   La prima è la fuga dello stallo, dove il sistema non accetta tutte quelle richieste di risorse che causano o potrebbero causare uno stallo. Questa strategia permette di considerare il fatto di  rifiutare o posticipare alcune richieste.
+   La seconda  è il Riconoscimento e risoluzione dello stallo dove si analizza il grafico di allocazione delle risorse per rivelare eventuali stalli in atto e si mettono in azione di risoluzione , per esempio recuperare la situazione di stallo prima che accada lo stallo.
+   La 3 è il Prevenzione dello stallo. Attraverso la previsone si cerca di prevenire uno deelle quattro condizioni dello stallo che sono : mutua esclusione, allocazione        parziale, impossibilità di prerilascio forzato, attesa circolare. Per questo si possono adottare 2 strategie: la prima è l'allocazione globale della risorsa e l'altra allocazione gerarchica delle risorse.
+
+2) Le  quatro condizioni di quando pou avvenire uno stallo sono :
+muta esclusione : nelle zone critiche le risorse vengono rilasciate solo a fine lavoro e una risorsa condivisibile deve essere utilizata da un solo processo alla volta 
+allocazione parziale: il processo non si impegna, all'inizio del blocco critico, tutte le risorse di cui avrà bisogno ma le richiederà man mano che serviranno;
+impossibilita di partecipazione forzata: il sistema non è abilitato a sottrarre fozatamente una risorsa al processo.
+attesa circolare: esiste una lista di processi onguno dei quali è in attesa di acquinsire una risorsa che è un posesso di un altro prcesso.
+
+
+3)QUesto algoritmo permette coniste nel scegliere un'allocazione delle risorse che consente ad almeno un processo di lavorare e concludere la sua esucuzione.
+
+4)lo stallo nella vita reale potrebbe essere quando ci sono almeno du persone che devono attraversare una porta pe andare nella zona opposta dell'altro, oppure su una scelta di un acquisto
+per esempio per le periferiche del computer pre un fatto di indecisione su quale prendere, 
